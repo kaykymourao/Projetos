@@ -1,0 +1,65 @@
+.contatos-container {
+    margin: 20px;
+    padding: 10px;
+}
+
+.contatos-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contato-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contato-info {
+    margin-bottom: 8px;
+}
+
+.contato-info strong {
+    font-weight: bold;
+}
+
+.contato-actions button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contato-actions button:hover {
+    background-color: #0056b3;
+}
+
+.contatos-buttons {
+    margin-top: 20px;
+}
+
+.add-button,
+.back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.add-button:hover {
+    background-color: #218838;
+}
+
+.back-button {
+    background-color: #ccc;
+    color: black;
+    margin-right: 10px;
+}

@@ -1,0 +1,18 @@
+Checklist do que foi feito:
+
+1. Backend
+    - Criação das Entidades Cliente e Contato, cada um com seus atributos
+    - Criação do ClienteController e ContatoController, para fazer o CRUD de cada um deles
+    - Configuração do CORS para permitir requisições do frontend
+    - Tratamento de erros
+    - Implementações dos serviços REST (GET, POST, PUT, DELETE)
+    - No MySQL foram criadas as tabelas clientes e contatos
+    - Foi configurado o ON DELETE CASCADE que exclui todos os contatos de um cliente excluído
+
+2. Frontend 
+    - Foram criadas as páginas:
+        - Cliente: Mostra todos os clientes cadastrados
+        - Contato: Mostra todos os contatos cadastrados
+        - Formulário de Cliente: Para editar ou criar um novo cliente 
+        - Formulário de Contato: Para editar ou criar um novo contato 
+        

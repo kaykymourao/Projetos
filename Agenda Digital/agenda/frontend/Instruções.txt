@@ -1,0 +1,21 @@
+Pré-Requisitos:
+
+- Java + Spring Boot
+- MySQL
+- Maven
+- React.js
+- React Router
+
+Como fazer a configuração e execução do back end:
+
+Rodar o Maven e o MySQL
+No MySQL, criar uma conexão nova, e rodar os comandos do arquivo Query
+Abrir a pasta do projeto no VSCode
+Abrir o terminal na pasta demo (o caminho é muralis/demo/demo) e executar o comando "mvn spring-boot:run"
+
+Como fazer a configuração e execução do front end:
+
+Abrir o terminal na pasta muralis e executar o comando npm install para instalar as dependências
+Abrir o terminal na pasta muralis e executar o comando npm run dev para poder abrir a página
+
+
